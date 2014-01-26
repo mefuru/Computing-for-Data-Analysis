@@ -1,0 +1,28 @@
+1. hist(outcome[,11], main='Heart Attack 30-day Death Rate', xlab='30-day Death Rate')
+2. i. colnames(outcome)
+ii. outcome[, 11] <- as.numeric(outcome[, 11])
+outcome[, 17] <- as.numeric(outcome[, 17])
+outcome[, 23] <- as.numeric(outcome[, 23])
+3, par(mfrow = c(3, 1)) before calling hist. This sets the plot window to have 3 rows and 1 column.
+hist(outcome[,11], main='Heart Attack 30-day Death Rate', xlab='30-day Death Rate')
+4. > hist(outcome[,11], main='Heart Attack 30-day Death Rate', xlab='30-day Death Rate')
+5. As above
+6. x <- c(outcome[,11], outcome[,17], outcome[,23])
+> hist(outcome[,17], main='Heart Failure 30-day Death Rate', xlab='30-day Death Rate')
+> hist(outcome[,17], main='Pneumonia 30-day Death Rate', xlab='30-day Death Rate')
+> hist(outcome[,11], xlab='30-day Death Rate', main='Heart Attack', xlim=range(x,na.rm=TRUE))
+> hist(outcome[,17], xlab='30-day Death Rate', main='Heart Attack', xlim=range(x,na.rm=TRUE))
+> hist(outcome[,23], xlab='30-day Death Rate', main='Heart Attack', xlim=range(x,na.rm=TRUE))
+Extra
+> abline(v=median(outcome[,11], na.rm=TRUE)) # Draw median line. abline draws straight line onto a plot
+par(mfrow = c(1, 1), las = 2)
+par(mfrow = c(1, 1), las = 2, cex.axis = 0.5)
+state <- reorder(state, death, median, na.rm = TRUE)
+outcome2 <- outcome[outcome$State %in% names(table(outcome$State))[table(outcome$State) > 20],]
+
+xyplot(death ~ npatient, xlab = 'Number of patients seen', ylab = '30 day death rate for heart attack', main='Heart Attack 30-day Death Rate by Ownership')
+
+> xyplot(death ~ npatient | owner, xlab = 'Number of patients seen', ylab = '30 day death rate for heart attack', main='Heart Attack 30-day Death Rate by Ownership', panel = function(x, y, ...) {
++     panel.xyplot(x, y, ...)
++     panel.lmline(x, y, col = "black")
++ })

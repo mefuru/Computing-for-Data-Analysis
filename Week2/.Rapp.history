@@ -1,0 +1,547 @@
+iris[1:10,1]
+iris[1:10,1:6]
+iris[1:10,1:5]
+iris[1:10,1:6]
+iris[1:10,1:5]
+iris[iris$Species=="virginica"]
+iris[iris$Species == "virginica",]
+str(colMeans)
+?colMean
+?colMeans
+virginica <- iris[iris$Species == "virginica",]
+len(virginica)
+length(virginica)
+size(virginica)
+nrom(virginica)
+nrow(virginica)
+NCOL(virginica)
+NROW(virginica)
+colMeans(virginica, na.rm = FALSE, dims = 1)
+colMeans(virginica, na.rm = FALSE, dims = 2)
+colMeans(virginica, na.rm = FALSE)
+colMeans(virginica, 2,2 na.rm = FALSE)
+colMeans(virginica, 2,2, na.rm = FALSE)
+colMeans(virginica,,2, na.rm = FALSE)
+colMeans(virginica, dims = 2)
+tapply?
+q
+?tapply
+tapply(virginica, 2, mean, ..., simplify = TRUE)
+tapply(virginica, 2, mean, , simplify = TRUE)
+colMeans(virginica[,1])
+type(virginica)
+typeof(virginica)
+virginica
+virginica[,1]
+rowMeans(virginica[,1])
+mean(virginica[,1])
+library(datasets)
+data(mtcars)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+tapply(split(mtcars$mpg, mtcars$cyl), mean)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+?ls
+debug(ls)
+ls
+ls
+ls
+ls?
+?
+q
+?ls
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        read.csv()#
+}
+read.csv('specdata/001.csv')
+getwd()
+getwd()
+read.csv('specdata/001.csv')
+data <- read.csv('specdata/001.csv')
+data(head)
+head(data)
+getmonitor <- function(id, directory, summarize = FALSE) {}
+getmonitor <- function(id, directory, summarize = FALSE) { data <- read.csv(directory, id, sep="/") }
+getmonitor <- function(id, directory, summarize = FALSE) { data <- read.csv('\'directory', 'id'\'', sep="/") }
+getmonitor <- function(id, directory, summarize = FALSE) { data <- read.csv(directory, id, sep="/") }
+getmonitor <- function(id, directory, summarize = FALSE) { data <- read.csv('specData', 001, sep="/") }
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here data <- read.csv('specData', 001, sep="/")#
+}
+getMonitor(1,1)
+getMonitor()
+getmonitor()
+getmonitor()
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here data <- read.csv('specData', '001', sep="/")#
+}
+getmonitor()
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here filePath <- paste(directory, "/", id, ".csv", sep="") print(filePath)#
+}
+getmonitor('hello', 001)
+print('tell')
+print(paste("one", "/", "two", ".csv", sep=""))
+paste("one", "/", "two", ".csv", sep="")
+paste("one", "/", 001, ".csv", sep="")
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "") print(filePath)#
+}
+paste('directory', "/", sprintf("%03d", 001), ".csv", #
+        sep = "")
+paste('directory', "/", sprintf("%03d", as.numeric(001)), ".csv", #
+        sep = "")
+paste('directory', "/", sprintf("%03d", as.numeric(011)), ".csv", #
+        sep = "")
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here dataFrame <- read.csv(paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = ""))#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "")#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "")#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = ""))#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+        ## 'id' is a vector of length 1 indicating the monitor ID#
+        ## number. The user can specify 'id' as either an integer, a#
+        ## character, or a numeric.#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'summarize' is a logical indicating whether a summary of#
+        ## the data should be printed to the console; the default is#
+        ## FALSE#
+        ## Your code here path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "")#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    # --- Assert 'id' is a vector of length 1 indicating the monitor ID#
+    # number. The user can specify 'id' as either an integer, a character, or#
+    # a numeric.  'directory' is a character vector of length 1 indicating the#
+    # location of the CSV files 'summarize' is a logical indicating whether a#
+    # summary of the data should be printed to the console; the default is#
+    # FALSE#
+#
+    # --- Assert construct file name Directory is pre-appended to file name.#
+    # Use sprintf() to add leading zeroes.  E.g. 'specdata/001.csv'#
+    fileStr <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "")#
+#
+    # --- Assert read csv#
+    rawDfr <- read.csv(fileStr)#
+#
+    # --- Assert summary if true#
+    if (summarize) {#
+        print(summary(rawDfr))#
+    }#
+#
+    # --- Return value is a data frame#
+    return(rawDfr)#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    # --- Assert 'id' is a vector of length 1 indicating the monitor ID#
+    # number. The user can specify 'id' as either an integer, a character, or#
+    # a numeric.  'directory' is a character vector of length 1 indicating the#
+    # location of the CSV files 'summarize' is a logical indicating whether a#
+    # summary of the data should be printed to the console; the default is#
+    # FALSE#
+#
+    # --- Assert construct file name Directory is pre-appended to file name.#
+    # Use sprintf() to add leading zeroes.  E.g. 'specdata/001.csv'#
+    fileStr <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "")#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    # --- Assert 'id' is a vector of length 1 indicating the monitor ID#
+    # number. The user can specify 'id' as either an integer, a character, or#
+    # a numeric.  'directory' is a character vector of length 1 indicating the#
+    # location of the CSV files 'summarize' is a logical indicating whether a#
+    # summary of the data should be printed to the console; the default is#
+    # FALSE#
+#
+    # --- Assert construct file name Directory is pre-appended to file name.#
+    # Use sprintf() to add leading zeroes.  E.g. 'specdata/001.csv'#
+    path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "") dFrame <- read.csv(path)#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    # --- Assert 'id' is a vector of length 1 indicating the monitor ID#
+    # number. The user can specify 'id' as either an integer, a character, or#
+    # a numeric.  'directory' is a character vector of length 1 indicating the#
+    # location of the CSV files 'summarize' is a logical indicating whether a#
+    # summary of the data should be printed to the console; the default is#
+    # FALSE#
+#
+    # --- Assert construct file name Directory is pre-appended to file name.#
+    # Use sprintf() to add leading zeroes.  E.g. 'specdata/001.csv'#
+    path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "") dFrame <- read.csv(path) return(dFrame)#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    # --- Assert 'id' is a vector of length 1 indicating the monitor ID#
+    # number. The user can specify 'id' as either an integer, a character, or#
+    # a numeric.  'directory' is a character vector of length 1 indicating the#
+    # location of the CSV files 'summarize' is a logical indicating whether a#
+    # summary of the data should be printed to the console; the default is#
+    # FALSE#
+#
+    # --- Assert construct file name Directory is pre-appended to file name.#
+    # Use sprintf() to add leading zeroes.  E.g. 'specdata/001.csv'#
+    path <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "") dFrame <- read.csv(path) return(dFrame)#
+}
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    # --- Assert 'id' is a vector of length 1 indicating the monitor ID#
+    # number. The user can specify 'id' as either an integer, a character, or#
+    # a numeric.  'directory' is a character vector of length 1 indicating the#
+    # location of the CSV files 'summarize' is a logical indicating whether a#
+    # summary of the data should be printed to the console; the default is#
+    # FALSE#
+#
+    # --- Assert construct file name Directory is pre-appended to file name.#
+    # Use sprintf() to add leading zeroes.  E.g. 'specdata/001.csv'#
+    fileStr <- paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", #
+        sep = "")#
+#
+    # --- Assert read csv#
+    rawDfr <- read.csv(fileStr)#
+#
+    # --- Assert summary if true#
+    if (summarize) {#
+        print(summary(rawDfr))#
+    }#
+#
+    # --- Return value is a data frame#
+    return(rawDfr)#
+}
+getmonitor(001, 'specData')
+data <- getmonitor(1, "specdata")#
+head(data)
+data <- getmonitor("001", "specdata")#
+head(data)
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    # --- Assert 'id' is a vector of length 1 indicating the monitor ID#
+    # number. The user can specify 'id' as either an integer, a character, or#
+    # a numeric.  'directory' is a character vector of length 1 indicating the#
+    # location of the CSV files 'summarize' is a logical indicating whether a#
+    # summary of the data should be printed to the console; the default is#
+    # FALSE#
+    fileStr <- paste(directory, "/", id, ".csv", #
+        sep = "")#
+#
+    # --- Assert read csv#
+    rawDfr <- read.csv(fileStr)#
+#
+    # --- Assert summary if true#
+    if (summarize) {#
+        print(summary(rawDfr))#
+    }#
+#
+    # --- Return value is a data frame#
+    return(rawDfr)#
+}
+data <- getmonitor("001", "specdata")#
+head(data)
+data <- getmonitor(1", "specdata")#
+head(data)
+data <- getmonitor(1, "specdata")#
+head(data)
+data <- getmonitor(001, "specdata")#
+head(data)
+source("http://spark-public.s3.amazonaws.com/compdata/scripts/getmonitor-test.R")
+getmonitor.testscript()
+testscript()
+getmonitor.testscript()
+source("http://spark-public.s3.amazonaws.com/compdata/scripts/getmonitor-test.R")#
+getmonitor.testscript()
+source("http://spark-public.s3.amazonaws.com/compdata/scripts/getmonitor-test.R")
+getmonitor.testscript()
+getmonitor.testscript()
+getmonitor.testscript()
+getmonitor.testscript()
+matrix(1:6, nrow=2, ncol = 3)
+matrix(1:6,2, 3)
+matrix(2,3)
+matrix(nrow=2,ncol3)
+matrix(nrow=2,ncol=3)
+matrix(1:7,2, 3)
+y <- 1:10
+y
+x <- factor(c("yes", "yes", "no", "yes", "no"),              levels = c("yes", "no"))
+x
+x <- factor(c("yes", "yes", "no", "yes", "no"),              levels = c("yes", "no", "no"))
+x <- factor(c("yes", "yes", "no", "yes", "no"),              levels = c("no", "yes"))
+x
+y <- 10
+f <- function(x) { y <- 2
+f <- function(x) { y <- 2 y^2 +g(x) }
+f <- function(x) { y <- 2 y^2 + g(x) }
+y <- 10#
+f <- function(x) {#
+y <- 2#
+y^2 + g(x)#
+}#
+g <- function(x) {#
+x*y#
+}
+f(3)
+y <- 10
+f <- function(x) { y <- 2 y^2 + g(x)}
+f <- function(x) { y <- 2 y^2 + g(x) }
+f <- function(x) {#
+y <- 2#
+y^2 + g(x)#
+}
+f <- function(x) { + y <- 2 + y^2 + g(x) }
+f <- function(x) {
+y <- 2
+y^2 + g(x)
+}
+str(optimize)
+?optimize
+?nlm
+lapply
+matrix(rnorm(200,20,10))
+matrix(rnorm(10,2,5))
+list(rnorm(10,2,5))
+rnorm>
+q
+rnorm?
+q
+str(rnorm)
+norm(10,mean=100)
+norm(10,100)
+norm(10,10,1)
+norm(10,10)
+matrix(norm(10,10,1), 5,2)
+matrix(norm(10,mean = 10,1), 5,2)
+matrix(norm(10,mean = 10,sd = 1), 5,2)
+matrix(norm(6), 3,2)
+matrix(rnorm(10,10,1), 5,2)
+matrix(rnorm(10,10,10), 5,2)
+matrix(rnorm(10,10,0.1), 5,2)
+?rnorm
+rnorm(10)
+rnorm(10)
+runif(10)
+gl(rnorm(10))
+gl(2,1)
+gl(3,10)
+gl?
+q
+?gl
+1:10
+class(1:10)
+x <- 1:10
+x
+class(x)
+class(x)
+class('hello')
+x[2]
+x[3]
+class(1:10000)
+class(1:101)
+1:101
+len(1:10)
+length(1:10)
+complete.complete()
+complete()
+complete()
+complete()
+complete()
+x <- vector()
+x
+x <- c(a,1,2)
+x <- c(x,1,2)
+x
+getmonitor <- function(id, directory, summarize = FALSE) {#
+    dFrame <- read.csv(paste(directory, "/", sprintf("%03d", as.numeric(id)), ".csv", sep = ""))#
+    if (summarize) {#
+        print(summary(dFrame))#
+    }#
+    return(dFrame)#
+}
+complete <- function(directory, id = 1:332) {#
+	notNACount <- vector()#
+	for(i in id) {#
+		dFrame <- getmonitor(i, directory, summarize = FALSE)#
+		dFrame <- dFrame[complete.cases(dFrame),]#
+		notNACount <- c(notNACount, nrow(dFrame))#
+	}#
+	notNACount#
+}
+complete('specData')
+complete("specdata", c(2, 4, 8, 10, 12))
+source("http://spark-public.s3.amazonaws.com/compdata/scripts/complete-test.R")
+complete.testscript()
+cor?
+q
+?cor
+a <- vector()
+a <- c(a,1)
+class(a)
+?cor
+source("http://spark-public.s3.amazonaws.com/compdata/scripts/corr-test.R")
+corr.testscript()
+corr.testscript()
+corr.testscript()
+?cor
+corr.testscript()
+corr.testscript()
+corr.testscript()
+corr.testscript()
+corr.testscript()
+corr.testscript()
+corr.testscript()
+%0d
+%03d
+sprintf("%03d", as.numeric('10'))
+sprintf("%03d", as.numeric('1000'))
+sprintf?
+q
+?sprintf
+?summary
+?complete.cases
+?co
+?cor
+?rnorm
+rnorm(10)
+rnorm(1)
+rnorm(1)
+rnorm(1)
+rnorm(1)
+class(rnorm(10))
+?gl
+gl(5,2)
+gl(2,5)
+x <- rnorm(10)
+x
+f1 <- gl(2,5)
+f2<- gl(5,2)
+split(x, list(f1,f2))
+library(igraph)
