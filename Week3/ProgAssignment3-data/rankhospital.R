@@ -21,16 +21,18 @@ rankhospital <- function(state, outcome, num = "best") {
   if(outcome=="heart attack") {
     outcomeDF <- outcomeDF[order(outcomeDF[,11], outcomeDF[,2]),]
   }
-  if(outcome=="heart failure") {
+  else if(outcome=="heart failure") {
     outcomeDF <- outcomeDF[order(outcomeDF[,17], outcomeDF[,2]),]
   }
-  if(outcome=="pneumonia") {
+  else if(outcome=="pneumonia") {
     outcomeDF <- outcomeDF[order(outcomeDF[,23], outcomeDF[,2]),]
   }
-  if(num=="best") return(outcomeDF[1,2])
-  if(num=="worst") {
+  if(num=="best") {return(outcomeDF[1,2])}
+  else if(num=="worst") {
     outcomeDF <- outcomeDF[order(-outcomeDF[,11], outcomeDF[,2]),]
+    print(outcomeDF[1,2])
     return(outcomeDF[1,2])
-  }
+  } else {
   return(outcomeDF[num,2])
+  }
 }
